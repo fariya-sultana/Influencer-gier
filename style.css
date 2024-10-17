@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Poppins:wght@100;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #AAAAAA;
+}
+header {
+    width: 100%;
+    height: 100px;
+}
+header div {
+    float: left;
+}
+.head h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    color: #3A3A3A;
+    margin-left: 120px;
+    margin-top: 87px;
+}
+.nav {
+    float: left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 120px;
+    margin-top: 80px;
+}
+.nav ul {
+    list-style: none;
+}
+.nav ul li {
+    float: left;
+    padding-left: 34px;
+    padding-top: o;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #3A3A3A;
+}
+.nav ul li a i {
+    width: 36px;
+    height: 36px;
+}
+.nav ul li a:hover {
+    color: #E02C6D;
+}
+.checkbtn {
+    display: none;
+    font-size: 30px;
+    color: rgba(0,0, 0, 0.9);
+    line-height: 50px;
+}
+ #check {
+    display: none;
+}
+
+/* header end */
+/* section one start */
+
+.sec1 {
+    width: 100%;
+    display: flex;
+}
+.sec1 .text1 {
+    width: 85%;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.sec1 .cam {
+    margin-right: 132px;
+    margin-top: 40px;
+}
+.sec1 .text1 h1 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+    line-height: 70px;
+    text-align: left;
+    text-align: start;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 16px;
+}
+.sec1 .text1 p {
+    font-size: 16px;
+    width: 65%;
+    font-weight: 600;
+    text-align: left;
+    color: #3A3A3A;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 16px;
+}
+.sec1 .text1 button {
+    padding: 10px 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    border: 1px solid #E02C6D; 
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+}
+.sec1 .text1 button:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0, 0, 0.5);
+}
+.sec1 .cam .c1 {
+    position: relative;
+    width: 475px;
+    height: 475px;
+}
+.sec1 .cam .c2 {
+    position: absolute;
+    right: 150px;
+    top: 230px;
+}
+
+/*section one end */
+/* section two end */
+
+.sec2 {
+    height: 110px;
+    margin-top: 70px;
+    margin-left: 165px ;
+    margin-right: 165px;
+    border-top: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+}
+.logo {
+   float: left;
+   margin-left: 25px;
+}
+.sec2 .logo img {
+   padding-top: 34px; 
+   padding-bottom: 34px;
+   padding-left: 61px;
+}
+
+/*section two end */
+/*section three start */
+.sec3 {
+    margin-left:196px;
+    margin-right: 196px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1047px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 60px;
+    row-gap: 60px;
+}
+.sec3 .header {
+    grid-column: 1/4;
+    height: 70px;
+}
+.sec3 .header h1 {
+   font-size: 28px;
+   font-weight: 600;
+   text-align: center;
+   color: #3A3A3A;
+   font-family: "Poppins", sans-serif;
+}
+.sec3 .child {
+   margin: 0;
+   padding: 17px 14px;
+   background-color: #FFFFFF;
+   width: 300px;
+   height: 476px;
+   box-shadow: 0 8px 12px 0 rgba(0,0, 0, 0.5);
+}
+.sec3 .child img {
+   margin-bottom: 10px;
+}
+.sec3 .child h3 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-size: 28px;
+   text-align: left;
+   color: #18191F;
+   margin-bottom: 14px;
+}
+.sec3 .child h4 {
+   margin: 0;
+   margin-bottom: 16px;
+   font-weight: 400;
+   font-size: 24px;
+   text-align: left;
+   color: #000000;
+   opacity: 87%;
+   font-family: "Inter", sans-serif;
+}
+.sec3 .child p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.8%;
+    text-align: left;
+    color: #787885;
+    margin: 0;
+    margin-top: 6px;
+}
+.sec3 .child .num {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color: #5E6366;
+    font-family: "Inter", sans-serif;
+}
+.sec3 .child i {
+    color: orange;
+}
+.sec3 .footer a {
+    text-decoration: none;
+    color: #E02C6D;
+    opacity: 87%;
+    position: relative;
+    left: 1010px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*section three end */
+/*section four start*/
+
+.sec4 {
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 100px;
+    width: 1110px;
+    height:270px ;
+    display: flex;
+    column-gap: 96px;
+}
+.sec4 .one {
+    width: 404px;
+}
+.sec4 .two {
+    width: 610px;
+    
+}
+.sec4 .two h2 {
+   font-size: 38px;
+   font-weight: 700;
+   text-align: left;
+   color: #0A0826;
+   font-family: "Poppins", sans-serif;
+   margin-bottom: 16px;
+}
+.sec4 .two p {
+   line-height: 28px;
+   text-align: left;
+   font-size: 16px;
+   color: #6C6C6C;
+   font-weight: 700;
+   font-family: "Poppins", sans-serif;
+   margin-bottom: 24px;
+}
+.sec4 .two a {
+   background-color: #E02C6D;
+   text-decoration: none;
+   border-radius: 20px;
+   padding: 10px 24px;
+   font-size: 16px;
+   font-weight: 700;
+   text-align: left;
+   color: #FFFFFF;
+   font-family: "Poppins", sans-serif;
+}
+.sec4 .two a:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0, 0, 0.5);
+}
+/*section four end*/
+/*footer start */
+
+footer {
+    background-color: #0A0826;
+    width: 100%;
+    height: 239px;
+    margin-top: 100px;
+}
+footer h2 {
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+footer p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #D9DBE1;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+footer i {
+    color: #FFFFFF;
+    position: relative;
+    left: 44%;
+    padding-left: 12px;
+    width: 32px;
+    height: 32px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+/* footer end */
+/*responsive start*/
+@media screen and (max-width:420px){
+    header {
+        height: 50px;
+    }
+    .head h4 {
+        font-size: 16px;
+        text-align:center;
+        margin-top: 30px;
+        margin-left: 115px;
+    }
+    .checkbtn {
+        display: block;
+        margin-left: -250px;
+        line-height: 0;
+        font-size: 24px;
+        margin-top: -50px;;
+    }
+    header .nav ul {
+        position: fixed;
+        width: 100px;
+        height: 160px;
+        background:  #f9f9ff;
+        top: 45px;
+        left:-30%;
+        transition: all .1s;
+    }
+    .search {
+        display: none;
+    }
+    .cart {
+        position: absolute;
+        top: -45px;
+        right: -375px;
+        width: 30px;
+        height: 30px;
+    }
+    header .nav ul li {
+        line-height: 20px;
+        margin-top: 15px;
+        margin-left: -50px;
+    }
+    #check:checked ~ ul {
+        left:0;
+    }
+    header .nav ul li a {
+        font-size: 20px;
+        text-align: left;
+    }
+    .sec1 {
+        flex-direction: column-reverse;
+    }
+    .sec1 .cam {
+        width: 100%;
+        margin-top: 22px;
+        margin-left: 65px;
+        margin-right: 50px;
+    }
+    .sec1 .cam .c1 {
+        position: relative;
+        width: 257px;
+        height: 257px;
+    }
+    .sec1 .cam .c2 {
+        width: 202px;
+        height: 190px;
+        position: absolute;
+        right: 95px;
+        top: 140px;
+    }
+    .sec1 .text1 {
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 20px;
+        margin-top: 14px;
+    }
+    .sec1 .text1 h1 {
+        font-size: 28px;
+        text-align: center;
+        text-align: start;
+        margin-bottom: 16px;
+        line-height: 40px;
+        text-align-last: center;
+    }
+    .sec1 .text1 p {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 14px;
+        margin-left: 30px;
+    }
+    .sec1 .text1 button {
+        margin-left: 65px;
+    }
+    .sec2 {
+        height: 70px;
+        margin-top: 50px;
+        margin-left: 42px ;
+        margin-right: 42px;
+        border-top: 1px solid #AAAAAA;
+        border-bottom: 1px solid #AAAAAA;
+    }
+    .Rakuten {
+       margin-left: 40px;
+    }
+    .sec2 .logo img {
+       padding-left: 0px;
+       padding-right: 15px;
+       padding-bottom:10px ;
+       padding-top: 10px;
+       width: 50px;
+       height: 15px;
+    }
+    .sec3 {
+        margin-left:16px;
+        margin-right: 16px;
+        margin-top: 50px;
+        width: 100%;
+        height:auto;
+        display:flex;
+        flex-wrap: wrap;
+        row-gap:15px ;
+    }
+    .sec3 .header {
+        height: 50px;
+    }
+    .sec3 .header h1 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .sec3 .child h3 {
+        font-weight: 700;
+    }
+    .sec3 .child h4 {
+        font-weight: 700;
+    }
+    .sec3 .child p {
+        font-weight: 400;
+    }
+    .sec3 .child .num {
+        font-weight: 500;
+    }
+    .sec3 .footer a {
+        left: 230px;
+    }
+    .sec4 {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+        width: 100%;
+        height:auto ;
+        flex-direction: column-reverse;
+    }
+    .sec4 .two h2 {
+        margin-left: 25px;
+        margin-right:25px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .sec4 .two p {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 45px;
+        margin-left: 15px;
+    }
+    .sec4 .two a {
+        border-radius: 0;
+        margin-left: 93px;
+        margin-bottom: 30px;
+    }
+    .sec4 .one {
+        width: 100%;
+        margin-left: 30px;
+        margin-right: px;
+        margin-top: 30px;
+    }
+    .sec4 .two {
+        width: 100%;
+    }
+    .sec4 .one img {
+        width: 299px;
+        height: 188px;
+        margin-bottom: 50px;
+    }
+    footer {
+        height: 211px;
+        margin-top: 50px;
+    }
+    footer h2 {
+        font-size: 16px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    footer i {
+        position: relative;
+        left: 33%;
+        padding-left: 7px;
+        width: 24px;
+        height: 24px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+}
+/*responsive end*/
