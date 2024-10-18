@@ -21,6 +21,19 @@ header div {
     margin-left: 120px;
     margin-top: 87px;
 }
+.cart {
+    float: left;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    margin-top: 20px;
+}
+.cart i {
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+}
 .nav {
     float: left;
     position: absolute;
@@ -316,6 +329,7 @@ footer i {
 /* footer end */
 /*responsive start*/
 @media screen and (max-width:420px){
+
     header {
         height: 50px;
     }
@@ -338,7 +352,7 @@ footer i {
         height: 160px;
         background:  #f9f9ff;
         top: 45px;
-        left:-30%;
+        left:-35%;
         transition: all .1s;
     }
     .search {
@@ -346,15 +360,15 @@ footer i {
     }
     .cart {
         position: absolute;
-        top: -45px;
-        right: -375px;
-        width: 30px;
-        height: 30px;
+        top: -73px;
+        right: -100px;
+        font-size: 24px;
     }
     header .nav ul li {
         line-height: 20px;
         margin-top: 15px;
         margin-left: -50px;
+        cursor: pointer;
     }
     #check:checked ~ ul {
         left:0;
@@ -367,7 +381,6 @@ footer i {
         flex-direction: column-reverse;
     }
     .sec1 .cam {
-        width: 100%;
         margin-top: 22px;
         margin-left: 65px;
         margin-right: 50px;
@@ -385,7 +398,6 @@ footer i {
         top: 140px;
     }
     .sec1 .text1 {
-        width: 100%;
         margin-left: 40px;
         margin-right: 20px;
         margin-top: 14px;
@@ -402,11 +414,11 @@ footer i {
         font-size: 14px;
         font-weight: 500;
         text-align: center;
-        margin-bottom: 14px;
-        margin-left: 30px;
+        width: 90%;
+        padding-left: 7px;
     }
     .sec1 .text1 button {
-        margin-left: 65px;
+        margin-left: 70px;
     }
     .sec2 {
         height: 70px;
@@ -428,21 +440,24 @@ footer i {
        height: 15px;
     }
     .sec3 {
-        margin-left:16px;
-        margin-right: 16px;
-        margin-top: 50px;
-        width: 100%;
-        height:auto;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 40px;
+        width: 80%;
+        height: auto;
         display:flex;
         flex-wrap: wrap;
         row-gap:15px ;
+    }
+    .sec3 .child {
+        margin-left: 30px;
     }
     .sec3 .header {
         height: 50px;
     }
     .sec3 .header h1 {
         font-size: 16px;
-        text-align: center;
+        padding-left: 120px;
     }
     .sec3 .child h3 {
         font-weight: 700;
@@ -457,38 +472,42 @@ footer i {
         font-weight: 500;
     }
     .sec3 .footer a {
-        left: 230px;
+        left: 265px;
+    }
+    .sec3 .footer {
+        margin-top: 34px;
     }
     .sec4 {
         margin-left: 0px;
         margin-right: 0px;
-        margin-top: 50px;
+        margin-top: -30px;
         width: 100%;
         height:auto ;
         flex-direction: column-reverse;
     }
     .sec4 .two h2 {
+        margin-top: 0;
+        margin-bottom: 0;
         margin-left: 25px;
         margin-right:25px;
         font-size: 24px;
         text-align: center;
     }
     .sec4 .two p {
-        width: 90%;
+        width: 85%;
+        margin-top: 0;
+        margin-left: 30px;
+        margin-bottom: 15px;
         text-align: center;
-        margin-bottom: 45px;
-        margin-left: 15px;
+        line-height: 25px;
     }
     .sec4 .two a {
         border-radius: 0;
-        margin-left: 93px;
-        margin-bottom: 30px;
+        margin-left: 120px;
     }
     .sec4 .one {
+        margin-top: 40px;
         width: 100%;
-        margin-left: 30px;
-        margin-right: px;
-        margin-top: 30px;
     }
     .sec4 .two {
         width: 100%;
@@ -496,7 +515,7 @@ footer i {
     .sec4 .one img {
         width: 299px;
         height: 188px;
-        margin-bottom: 50px;
+        margin-left: 48px;
     }
     footer {
         height: 211px;
